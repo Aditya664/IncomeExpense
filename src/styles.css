@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+body {
+  font-family: "Protest Riot", sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 25px !important;
+}
+
+.logo-text {
+  font-family: "Protest Riot", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.clr-vertical-nav.has-nav-groups .nav-group .nav-group-text,
+.clr-vertical-nav.has-nav-groups .nav-group .nav-group-trigger {
+  font-weight: 300 !important;
+  font-size: 20px;
+}
+
+.clr-vertical-nav .nav-group-text,
+.clr-vertical-nav .nav-text {
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 300 !important;
+  font-size: 20px;
+  text-overflow: ellipsis;
+}
